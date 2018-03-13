@@ -27,7 +27,7 @@ apis:
   tags: Series
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/series/master/_listings/google-books/series-get-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/series/master/_listings/google-books/series-membership-get-get.md
 x-common:
 - type: x-blog
   url: http://booksearch.blogspot.com
