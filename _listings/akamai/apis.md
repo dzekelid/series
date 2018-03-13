@@ -33,7 +33,7 @@ apis:
   tags: Series
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/series/master/_listings/akamai/etp-report-v1-configs-configid-aup-events-time-series-starttimesec,endtimesec,dimension,filters-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/series/master/_listings/akamai/etp-report-v1-configs-configid-dns-activities-time-series-starttimesec,endtimesec,dimension,filters-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
