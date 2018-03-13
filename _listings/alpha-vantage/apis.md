@@ -29,7 +29,7 @@ apis:
   tags: Series
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/series/master/_listings/alpha-vantage/query-function-digital-currency-daily-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/series/master/_listings/alpha-vantage/query-function-digital-currency-weekly-get.md
 x-common:
 - type: x-command-line-interface
   url: https://www.npmjs.com/package/alpha-vantage-cli
