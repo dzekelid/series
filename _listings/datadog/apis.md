@@ -15,9 +15,9 @@ tags:
 - Orchestration
 - Monitoring
 - Aggregation
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/series/master/_listings/datadog/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/datadog/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: DataDog API
@@ -30,7 +30,7 @@ apis:
   tags: Series
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/series/master/_listings/datadog/series-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/datadog/series-post.md
 x-common:
 - type: x-blog
   url: https://www.datadoghq.com/blog/
