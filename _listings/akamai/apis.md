@@ -20,9 +20,9 @@ tags:
 - Bots
 - Applications
 - API LIfeycle
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/series/master/_listings/akamai/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Akamai API
@@ -33,7 +33,7 @@ apis:
   tags: Series
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/series/master/_listings/akamai/etp-report-v1-configs-configid-dns-activities-time-series-starttimesec,endtimesec,dimension,filters-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/akamai/etp-report-v1-configs-configid-threat-events-time-series-starttimesec,endtimesec,dimension,filters-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
