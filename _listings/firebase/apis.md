@@ -18,9 +18,9 @@ tags:
 - Database
 - Command Line Interface
 - API LIfeycle
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/series/master/_listings/firebase/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/firebase/apis.yaml
 specificationVersion: "0.14"
 apis: []
 x-common:
