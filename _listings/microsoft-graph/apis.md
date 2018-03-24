@@ -32,7 +32,7 @@ apis:
   tags: Series
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/microsoft-graph/,-series-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/microsoft-graph/,-series-get.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
