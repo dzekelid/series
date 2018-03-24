@@ -29,7 +29,7 @@ apis:
   tags: Series
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/alpha-vantage/query-function-time-series-monthly-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/alpha-vantage/query-function-time-series-monthly-adjusted-get.md
 x-common:
 - type: x-command-line-interface
   url: https://www.npmjs.com/package/alpha-vantage-cli
