@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/akamai/etp-report-v1-configs-configid-dns-activities-time-series-starttimesec,endtimesec,dimension,filters-get.md
-- name: Akamai API Report AUP Event Time Series
-  description: Report AUP Event Time Series
+- name: Akamai API Report DNS Activity Time Series
+  description: Report DNS Activity Time Series
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Series
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/akamai/etp-report-v1-configs-configid-aup-events-time-series-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/akamai/etp-report-v1-configs-configid-dns-activities-time-series-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
