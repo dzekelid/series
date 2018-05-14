@@ -30,8 +30,8 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/alpha-vantage/query-function-digital-currency-monthly-get.md
-- name: Alpha Vantage Digital Currencies Daily
-  description: This API returns the daily historical time series for a digital currency
+- name: Alpha Vantage Digital Currencies Weekly
+  description: This API returns the weekly historical time series for a digital currency
     (e.g., BTC) traded on a specific market (e.g., CNY/Chinese Yuan), refreshed daily
     at midnight (UTC). Prices and volumes are quoted in both the market-specific currency
     and USD.
@@ -42,7 +42,7 @@ apis:
   tags: Series
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/alpha-vantage/query-function-digital-currency-daily-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/alpha-vantage/query-function-digital-currency-weekly-get.md
 x-common:
 - type: x-command-line-interface
   url: https://www.npmjs.com/package/alpha-vantage-cli
