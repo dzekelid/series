@@ -33,18 +33,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/microsoft-graph/,-series,-collection,-item,-at-post.md
-- name: Microsoft Graph API Get Chart Series
-  description: Get ChartSeries Retrieve the properties and relationships of chartseries
-    object.
+- name: Microsoft Graph API Update Chartseries
+  description: Update chartseries Update the properties of chartseries object.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
   humanURL: https://developer.microsoft.com/en-us/graph/
   baseURL: https://graph.microsoft.com//
   tags: Series
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/microsoft-graph/,-series-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/microsoft-graph/series-patch.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/microsoft-graph/,-series-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/microsoft-graph/series-patch-postman.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
