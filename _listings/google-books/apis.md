@@ -28,8 +28,8 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/google-books/series-membership-get-get.md
-- name: Google Books API Get Series
-  description: Returns Series metadata for the given series ids.
+- name: Google Books API Get Series Membership
+  description: Returns Series membership data given the series id.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
     Shot 2017-03-16 at 4.28.26 PM.png
   humanURL: https://developers.google.com/books/
@@ -37,9 +37,9 @@ apis:
   tags: Series
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/google-books/series-get-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/google-books/series-membership-get-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/google-books/series-get-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/google-books/series-membership-get-get-postman.md
 x-common:
 - type: x-blog
   url: http://booksearch.blogspot.com
