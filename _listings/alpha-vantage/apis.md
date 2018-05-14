@@ -30,10 +30,11 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/alpha-vantage/query-function-digital-currency-monthly-get.md
-- name: Alpha Vantage Batch Stock Quotes
-  description: The batch stock quotes API enables the querying of multiple stock quotes
-    with a single API request, updated realtime. It may serve as a lightweight alternative
-    to our core stock time series APIs above (which have richer content but are symbol-specific).
+- name: Alpha Vantage Digital Currencies Intraday
+  description: This API returns the realtime intraday time series (in 5-minute intervals)
+    for any digital currency (e.g., BTC) traded on a specific market (e.g., CNY/Chinese
+    Yuan). Prices and volumes are quoted in both the market-specific currency and
+    USD.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
     Shot 2018-01-22 at 4.52.35 PM.png
   humanURL: https://www.alphavantage.co
@@ -41,7 +42,7 @@ apis:
   tags: Series
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/alpha-vantage/query-function-batch-stock-quotes-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/alpha-vantage/query-function-digital-currency-intraday-get.md
 x-common:
 - type: x-command-line-interface
   url: https://www.npmjs.com/package/alpha-vantage-cli
