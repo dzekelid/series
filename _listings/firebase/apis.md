@@ -56,6 +56,38 @@ x-common:
   url: https://twitter.com/firebase
 - type: x-website
   url: https://firebase.google.com/
+- type: x-blog
+  url: https://firebase.googleblog.com/
+- type: x-blog-rss
+  url: http://firebase.googleblog.com/feeds/posts/default?alt=rss
+- type: x-case-studies
+  url: https://firebase.google.com/customers/
+- type: x-change-log
+  url: https://firebase.google.com/support/releases
+- type: x-code
+  url: https://firebase.google.com/docs/libraries/
+- type: x-documentation
+  url: https://firebase.google.com/docs/
+- type: x-faq
+  url: https://firebase.google.com/support/faq/
+- type: x-forum
+  url: https://groups.google.com/forum/#!forum/firebase-talk
+- type: x-github
+  url: https://github.com/firebase
+- type: x-pricing
+  url: https://firebase.google.com/pricing/
+- type: x-pricing
+  url: https://adwords.google.com/home/pricing/
+- type: x-slack
+  url: https://firebase.community/
+- type: x-submit-bug
+  url: https://firebase.google.com/support/contact/bugs-features
+- type: x-support
+  url: https://firebase.google.com/support/
+- type: x-twitter
+  url: https://twitter.com/firebase
+- type: x-website
+  url: https://firebase.google.com/
 include: []
 maintainers:
 - FN: Kin Lane
