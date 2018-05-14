@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: DataDog Merged API
+  title: DataDog API Add Series
   version: 1.0.0
+  description: |-
+    The metrics end-point allows you to post time-series data that can be
+              graphed on Datadog's dashboards.
 basePath: api/v1/
 schemes:
 - http
