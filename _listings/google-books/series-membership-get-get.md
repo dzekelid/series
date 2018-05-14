@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Books
-  description: Searches for books and manages your Google Books library.
+  title: Google Books API Get Series Membership
+  description: Returns Series membership data given the series id.
   contact:
     name: Google
     url: https://google.com
