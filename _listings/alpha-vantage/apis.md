@@ -30,9 +30,10 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/alpha-vantage/query-function-digital-currency-monthly-get.md
-- name: Alpha Vantage Intraday Time Series
-  description: This API returns intraday time series (timestamp, open, high, low,
-    close, volume) of the equity specified, updated realtime.
+- name: Alpha Vantage Daily Time Series Adjusted
+  description: This API returns daily time series (date, daily open, daily high, daily
+    low, daily close, daily volume, daily adjusted close, and split/dividend events)
+    of the equity specified, covering up to 20 years of historical data.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
     Shot 2018-01-22 at 4.52.35 PM.png
   humanURL: https://www.alphavantage.co
@@ -40,7 +41,7 @@ apis:
   tags: Series
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/alpha-vantage/query-function-time-series-intraday-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/alpha-vantage/query-function-time-series-daily-adjusted-get.md
 x-common:
 - type: x-command-line-interface
   url: https://www.npmjs.com/package/alpha-vantage-cli
