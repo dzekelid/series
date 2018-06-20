@@ -9,8 +9,8 @@ info:
     permitted, there must be no pending or completed orders for any dates in the series. Returns a boolean indicating
     success or failure of the delete.
   version: 1.0.0
-host: www.eventbriteapi.com
-basePath: /v3
+host: www.eventbrite.com
+basePath: /%7Bdata-type%7D/
 schemes:
 - http
 produces:
@@ -20,7 +20,7 @@ consumes:
 paths:
   /series/:
     post:
-      summary: Add Series
+      summary: Post Series
       description: Creates a new repeating event series. The POST data must include
         information for at least one event date in the series.
       operationId: postSeries
@@ -48,7 +48,7 @@ paths:
       tags:
       - Series
     post:
-      summary: Add Series
+      summary: Post Series
       description: |-
         Updates a repeating event series parent object, and optionally also creates more event dates or updates or deletes
         existing event dates in the series. In order for a series date to be deleted or updated, there must be no pending or
@@ -75,7 +75,7 @@ paths:
       - Series
   /series/{id}/publish/:
     post:
-      summary: Add Series  Publish
+      summary: Post Series Publish
       description: |-
         Publishes a repeating event series and all of its occurrences that are not already canceled or deleted. Once a date is cancelled it can still be uncancelled and can be viewed by the public. A deleted date cannot be undeleted and cannot by viewed by the public. In order for
         publish to be permitted, the event must have all necessary information, including a name and description, an organizer,
@@ -88,11 +88,10 @@ paths:
           description: OK
       tags:
       - Series
-      - ""
       - Publish
   /series/{id}/unpublish/:
     post:
-      summary: Add Series  Unpublish
+      summary: Post Series Unpublish
       description: |-
         Unpublishes a repeating event series and all of its occurrences that are not already completed, canceled, or deleted. In
         order for a free series to be unpublished, it must not have any pending or completed orders for any dates, even past
@@ -106,11 +105,10 @@ paths:
           description: OK
       tags:
       - Series
-      - ""
       - Unpublish
   /series/{id}/cancel/:
     post:
-      summary: Add Series  Cancel
+      summary: Post Series Cancel
       description: |-
         Cancels a repeating event series and all of its occurrences that are not already canceled or deleted. In order for
         cancel to be permitted, there must be no pending or completed orders for any dates in the series. Returns a boolean
@@ -122,7 +120,6 @@ paths:
           description: OK
       tags:
       - Series
-      - ""
       - Cancel
 x-streamrank:
   polling_total_time_average: 0

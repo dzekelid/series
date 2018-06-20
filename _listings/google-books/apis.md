@@ -8,10 +8,10 @@ description: Google Books is our effort to make book content more discoverable o
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
   Shot 2017-03-16 at 4.28.26 PM.png
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Series
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/google-books/apis.md
 specificationVersion: "0.14"
 apis:

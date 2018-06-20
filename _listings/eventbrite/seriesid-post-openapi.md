@@ -3,14 +3,14 @@ swagger: "2.0"
 x-collection-name: Eventbrite
 x-complete: 0
 info:
-  title: Eventbrite Add Series
+  title: Eventbrite Post Series
   description: |-
     Updates a repeating event series parent object, and optionally also creates more event dates or updates or deletes
     existing event dates in the series. In order for a series date to be deleted or updated, there must be no pending or
     completed orders for that date.
   version: 1.0.0
-host: www.eventbriteapi.com
-basePath: /v3
+host: www.eventbrite.com
+basePath: /%7Bdata-type%7D/
 schemes:
 - http
 produces:
@@ -20,7 +20,7 @@ consumes:
 paths:
   /series/:
     post:
-      summary: Add Series
+      summary: Post Series
       description: Creates a new repeating event series. The POST data must include
         information for at least one event date in the series.
       operationId: postSeries
@@ -48,7 +48,7 @@ paths:
       tags:
       - Series
     post:
-      summary: Add Series
+      summary: Post Series
       description: |-
         Updates a repeating event series parent object, and optionally also creates more event dates or updates or deletes
         existing event dates in the series. In order for a series date to be deleted or updated, there must be no pending or

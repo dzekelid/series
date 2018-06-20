@@ -4,7 +4,7 @@ x-collection-name: Google Books
 x-complete: 1
 info:
   title: Books
-  description: searches-for-books-and-manages-your-google-books-library
+  description: searches-for-books-and-manages-your-google-books-library-
   contact:
     name: Google
     url: https://google.com

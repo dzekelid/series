@@ -26,7 +26,7 @@ paths:
       parameters:
       - in: path
         name: dataset id
-        description: 'Unique dataset identifier '
+        description: Unique dataset identifier
         type: string
         format: string
       responses:

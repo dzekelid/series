@@ -1,15 +1,14 @@
 ---
 name: Firebase
 x-slug: firebase
-description: Firebase is a mobile platform that helps you quicklydevelophigh-quality
-  apps,growyour user base, andearnmore money. Firebase is made up of complementary
-  features that you can mix-and-match to fit your needs.
+description: Firebase is a mobile platform that gives developers the tools and infrastructure
+  to build better apps and grow successful businesses.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "1"
 tags: Series
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/firebase/apis.md
 specificationVersion: "0.14"
 apis:
@@ -22,7 +21,7 @@ apis:
 
     May return any of the following canonical error codes: - NOT_FOUND - The containing Step does not exist
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
-  humanURL: https://firebase.google.com/
+  humanURL: https://Firebase.google.com
   baseURL: https://{project_id].firebaseio.co}////{projectId}/histories/{historyId}/executions/{executionId}/steps/{stepId}/perfSampleSeries
   tags: Sample Series
   properties:
@@ -37,7 +36,7 @@ apis:
 
     May return any of the following error code(s): - ALREADY_EXISTS - PerfMetricSummary already exists for the given Step - NOT_FOUND - The containing Step does not exist
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
-  humanURL: https://firebase.google.com/
+  humanURL: https://Firebase.google.com
   baseURL: https://{project_id].firebaseio.co}////{projectId}/histories/{historyId}/executions/{executionId}/steps/{stepId}/perfSampleSeries
   tags: Sample Series
   properties:
@@ -50,7 +49,7 @@ apis:
 
     May return any of the following error code(s): - NOT_FOUND - The specified PerfSampleSeries does not exist
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
-  humanURL: https://firebase.google.com/
+  humanURL: https://Firebase.google.com
   baseURL: https://{project_id].firebaseio.co}////{projectId}/histories/{historyId}/executions/{executionId}/steps/{stepId}/perfSampleSeries/{sampleSeriesId}
   tags: Sample Series
   properties:
@@ -63,7 +62,7 @@ apis:
 
     May return any of the following canonical error codes: - OUT_OF_RANGE - The specified request page_token is out of valid range - NOT_FOUND - The containing PerfSampleSeries does not exist
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
-  humanURL: https://firebase.google.com/
+  humanURL: https://Firebase.google.com
   baseURL: https://{project_id].firebaseio.co}////{projectId}/histories/{historyId}/executions/{executionId}/steps/{stepId}/perfSampleSeries/{sampleSeriesId}/samples
   tags: Sample Series
   properties:
@@ -76,7 +75,7 @@ apis:
 
     May return any of the following canonical error codes: - NOT_FOUND - The containing PerfSampleSeries does not exist
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
-  humanURL: https://firebase.google.com/
+  humanURL: https://Firebase.google.com
   baseURL: https://{project_id].firebaseio.co}////{projectId}/histories/{historyId}/executions/{executionId}/steps/{stepId}/perfSampleSeries/{sampleSeriesId}/samples:batchCreate
   tags: Sample Series
   properties:
@@ -84,17 +83,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/firebase/projectidhistorieshistoryidexecutionsexecutionidstepsstepidperfsampleseriessampleseriesidsamplesbatchcreate-post-openapi.md
 - name: Firebase
   x-api-slug: firebase
-  description: Firebase is a mobile platform that helps you quicklydevelophigh-quality
-    apps,growyour user base, andearnmore money. Firebase is made up of complementary
-    features that you can mix-and-match to fit your needs.
+  description: Firebase is a mobile platform that gives developers the tools and infrastructure
+    to build better apps and grow successful businesses.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
-  humanURL: https://firebase.google.com/
+  humanURL: https://Firebase.google.com
   baseURL: https://{project_id].firebaseio.co}//
   tags: Series
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/firebase/openapi.md
 x-common:
+- type: x-website
+  url: https://Firebase.google.com
 - type: x-blog
   url: https://firebase.googleblog.com/
 - type: x-blog-rss
@@ -105,6 +105,8 @@ x-common:
   url: https://firebase.google.com/support/releases
 - type: x-code
   url: https://firebase.google.com/docs/libraries/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/google
 - type: x-documentation
   url: https://firebase.google.com/docs/
 - type: x-faq
@@ -123,6 +125,8 @@ x-common:
   url: https://firebase.google.com/support/contact/bugs-features
 - type: x-support
   url: https://firebase.google.com/support/
+- type: x-twitter
+  url: https://twitter.com/Google
 - type: x-twitter
   url: https://twitter.com/firebase
 - type: x-website

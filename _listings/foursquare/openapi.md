@@ -1,0 +1,76 @@
+---
+swagger: "2.0"
+x-collection-name: Foursquare
+x-complete: 1
+info:
+  title: Foursquare
+  description: checkin-explore-your-city-and-connect-people-and-places-bapi-v2-b
+  version: 1.0.0
+host: api.foursquare.com
+basePath: /v2/
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /campaigns/{CAMPAIGN_ID}/timeseries:
+    get:
+      summary: Get Campaigns Timeseries
+      description: /campaigns/list
+      operationId: campaignslist
+      x-api-path-slug: campaignscampaign-idtimeseries-get
+      parameters:
+      - in: query
+        name: CAMPAIGN_ID
+        description: The campaign id to retrieve stats for
+      - in: path
+        name: CAMPAIGN_ID
+      - in: query
+        name: endAt
+        description: The end of the time range to retrieve stats for (seconds since
+          epoch)
+      - in: query
+        name: startAt
+        description: The start of the time range to retrieve stats for (seconds since
+          epoch)
+      - in: query
+        name: v
+        description: All requests now accept a v=YYYYMMDD param, which indicates that
+          the client is up to date as of the specified date
+      responses:
+        200:
+          description: OK
+      tags:
+      - Campaigns
+      - Timeseries
+  /venues/timeseries:
+    get:
+      summary: Get Venues Timeseries
+      description: /venues/suggestcompletion
+      operationId: venuessuggestcompletion
+      x-api-path-slug: venuestimeseries-get
+      parameters:
+      - in: query
+        name: endAt
+        description: The end of the time range to retrieve stats for (seconds since
+          epoch)
+      - in: query
+        name: startAt
+        description: The start of the time range to retrieve stats for (seconds since
+          epoch)
+      - in: query
+        name: v
+        description: All requests now accept a v=YYYYMMDD param, which indicates that
+          the client is up to date as of the specified date
+      - in: query
+        name: venueId
+        description: A comma-separated list of venue ids to retrieve series data for
+      responses:
+        200:
+          description: OK
+      tags:
+      - Venues
+      - Timeseries
+---
