@@ -1,0 +1,109 @@
+{
+	"name": "Streadata.io API Gallery - Series",
+	"description": "This is a repository of series APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/series.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://series.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Eventbrite",
+			"x-api-slug": "eventbrite",
+			"description": "Eventbrite brings people together through live experiences. Discover events that match your passions, or create your own with online ticketing tools.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg",
+			"humanURL": "http://eventbriteapi.com",
+			"baseURL": "https://www.eventbrite.com//%7Bdata-type%7D/",
+			"tags": "Series",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/eventbrite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Aylien",
+			"x-api-slug": "aylien",
+			"description": "Text Analysis API | Natural Language Processing",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20034-aylien.jpg",
+			"humanURL": "http://aylien.com/",
+			"baseURL": "https://api.newsapi.aylien.com//api/v1",
+			"tags": "Series",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/aylien/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Datadog",
+			"x-api-slug": "datadog",
+			"description": "See inside any stack, any app, at any scale, anywhere.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg",
+			"humanURL": "https://www.datadoghq.com/",
+			"baseURL": "https:///api/v1/",
+			"tags": "Series",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/datadog/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Books",
+			"x-api-slug": "google-books",
+			"description": "Google Books is our effort to make book content more discoverable on the Web. Using the Google Books API, your application can perform full-text searches and retrieve book information, viewability and eBook availability. You can also manage your personal bookshelves.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2017-03-16 at 4.28.26 PM.png",
+			"humanURL": "https://developers.google.com/books/",
+			"baseURL": "://www.googleapis.com//books/v1",
+			"tags": "Series",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/google-books/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "The TVDB",
+			"x-api-slug": "the-tvdb",
+			"description": "TheTVDB.com is a community driven database of television shows. All content and images on the site have been contributed by the sites users; the site uses moderated editing to maintain its own standards. The database schema and website are open source under the GNU General Public License.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/thetvdb.jpeg",
+			"humanURL": "http://thetvdb.com",
+			"baseURL": "https://api-dev.thetvdb.com//",
+			"tags": "Series",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/the-tvdb/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Series",
+	"include": [
+		{
+			"name": "Eventbrite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/eventbrite/apis.yaml"
+		},
+		{
+			"name": "Aylien",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/aylien/apis.yaml"
+		},
+		{
+			"name": "Datadog",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/datadog/apis.yaml"
+		},
+		{
+			"name": "Google Books",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/google-books/apis.yaml"
+		},
+		{
+			"name": "The TVDB",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/series/master/_listings/the-tvdb/apis.yaml"
+		}
+	]
+}
